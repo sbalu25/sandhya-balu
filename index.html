@@ -139,7 +139,7 @@
                 <a href="https://github.com/sbalu25" class="btn btn-light btn-lg">
                     <i class="fab fa-github"></i> GitHub
                 </a>
-                <a href="#contact" class="btn btn-outline-light btn-lg">
+                <a href="#contact" class="btn btn-light btn-lg">
                     <i class="fas fa-envelope"></i> Contact
                 </a>
                 <a href="sandhya_resume.pdf" class="btn btn-light btn-lg" download>
@@ -149,8 +149,459 @@
         </div>
     </section>
 
-    <!-- REMAINING SECTIONS STAY THE SAME -->
-    <!-- (You can paste the remaining sections from your original file here without any change) -->
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead">
+                        Results-driven software engineer with 5+ years of experience building scalable systems,
+                        specializing in microservices architecture, cloud computing, and spatial data analysis.
+                        Master's in Computer Science with 4.0 GPA from Arizona State University.
+                        Proven track record of developing high-performance systems processing millions of records.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-5 text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="p-4 border rounded h-100">
+                        <i class="fas fa-server fa-3x mb-3 text-primary"></i>
+                        <h3>Backend Development</h3>
+                        <p>Spring Boot, Kotlin, Java, Python, AWS, Kubernetes, Microservices</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="p-4 border rounded h-100">
+                        <i class="fas fa-cloud fa-3x mb-3 text-primary"></i>
+                        <h3>Front end development</h3>
+                        <p>Angular, React, TypeScript, JavaScript, HTML5, CSS3, RxJS, NgRx, Responsive Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="p-4 border rounded h-100">
+                        <i class="fas fa-database fa-3x mb-3 text-primary"></i>
+                        <h3>Data Engineering</h3>
+                        <p>Apache Sedona, Spark, Spatial Analysis, ETL Pipelines, Data Visualization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+
+            <div class="timeline">
+                <!-- Kubra -->
+                <div class="timeline-item">
+                    <div class="card mb-4">
+                        <div class="card-header bg-primary text-white d-flex justify-content-between">
+                            <h3>Software Engineer - Kubra</h3>
+                            <span>May 2023 - Present | Tempe, AZ</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Java</span>
+                                <span class="badge skill-badge">Spring Boot</span>
+                                <span class="badge skill-badge">Kotlin</span>
+                                <span class="badge skill-badge">AWS</span>
+                                <span class="badge skill-badge">Microservices</span>
+                            </div>
+                            <ul>
+                                <li>Designed a microservice that asynchronously retrieves file data from AWS S3,
+                                    utilizing Java’s virtual thread executor to
+                                    dynamically create SQS queues for each file, enabling optimized and parallel
+                                    processing of multiple files</li>
+                                <li>Developed a high-performance consumer application that processes messages from AWS
+                                    SQS, capable of handling up to
+                                    2M records per hour, significantly improving data throughput using Kotlin coroutines
+                                    for parallel processing.</li>
+                                <li>Developed long-running database migration tasks using mongock and a single-thread
+                                    executor, enhancing data integrity
+                                    and system resilience through robust error handling to ensure consistent system
+                                    performance and reliability.</li>
+                                <li>Engineered and maintained sophisticated RESTful APIs with a Spring based microservice architecture for a utility
+                                    management platform, enabling the dynamic management of utility accounts and complex service agreement.</li>
+                                <li>Created a Ktor-based microservice on a separate port, utilizing node port service for optimal load balancing and
+                                    scalability, ensuring robust version-specific request management and high system availability.</li>
+                                <li>Implemented a service address search feature using anagram-based indexing and threshold matching algorithms for
+                                    enhanced query resolution in a utility management system.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Healthnet Global -->
+                <div class="timeline-item">
+                    <div class="card mb-4">
+                        <div class="card-header bg-success text-white d-flex justify-content-between">
+                            <h3>Software Engineer - Healthnet Global, India</h3>
+                            <span>Dec 2020 - Aug 2021</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Angular</span>
+                                <span class="badge skill-badge">Firebase</span>
+                                <span class="badge skill-badge">OAuth 2.0</span>
+                            </div>
+                            <ul>
+                                <li>Built scheduling system connecting 1M+ care providers with patients daily</li>
+                                <li>Developed PDF generation system for medical documents in Angular</li>
+                                <li>Automated CI/CD pipeline with Firebase Hosting and GitHub Actions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IVY Comptech -->
+                <div class="timeline-item">
+                    <div class="card mb-4">
+                        <div class="card-header bg-info text-dark d-flex justify-content-between">
+                            <h3>Software Engineer - IVY Comptech Pvt Ltd, India</h3>
+                            <span>June 2018 - Dec 2020</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Angular</span>
+                                <span class="badge skill-badge">SignalR</span>
+                                <span class="badge skill-badge">RxJS</span>
+                            </div>
+                            <ul>
+                                <li>Architected cross-platform communication framework between web and mobile</li>
+                                <li>Developed real-time odds processing pipeline using SignalR websockets</li>
+                                <li>Built BetMGM sports betting web application with Angular and RxJS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Truzio Technologies -->
+                <div class="timeline-item">
+                    <div class="card mb-4">
+                        <div class="card-header bg-warning text-dark d-flex justify-content-between">
+                            <h3>Intern - Truzio Technologies, India</h3>
+                            <span>Dec 2017 - Apr 2018</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Odoo</span>
+                                <span class="badge skill-badge">PostgreSQL</span>
+                                <span class="badge skill-badge">JavaScript</span>
+                                <span class="badge skill-badge">Python</span>
+                            </div>
+                            <ul>
+                                <li>Automated the JNTUK Registrar Office's maintenance of educational records using a
+                                    centralized database</li>
+                                <li>Implemented messaging system and internal node logging for grievance management</li>
+                                <li>Reduced manual work by 60% through workflow automation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Technical Projects</h2>
+
+            <div class="row">
+                <!-- Spatial Data Science -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="images/secure-hospital-system.webp" class="card-img-top" alt="Spatial Data Analysis">
+                        <div class="card-body">
+                            <h3 class="card-title">Secure Hospital System</h3>
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Angular</span>
+                                <span class="badge skill-badge">TypeScript</span>
+                                <span class="badge skill-badge">Java</span>
+                                <span class="badge skill-badge">SpringBoot</span>
+                                <span class="badge skill-badge">Azure</span>
+                                <span class="badge skill-badge">MySQL</span>
+                            </div>
+                            <p class="card-text">
+                                Digitized hospital management system with enhanced clinical outcomes and
+                                security measures including encryption and Hyperledger blockchain to prevent cyber
+                                attacks.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="https://github.com/sbalu25/Secure-Hospital-System" class="btn btn-primary">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hotspot Analysis -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="images/asl-fingerspelling.gif" class="card-img-top" alt="Hotspot Analysis">
+                        <div class="card-body">
+                            <h3 class="card-title">ASL FingerSpelling</h3>
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Python</span>
+                                <span class="badge skill-badge">TensorFlow</span>
+                                <span class="badge skill-badge">Posenet</span>
+                                <span class="badge skill-badge">keras</span>
+                                <span class="badge skill-badge">node</span>
+                            </div>
+                            <p class="card-text">
+                                ASL Fingerspelling uses deep learning neural networks
+                                to recognize ASL hand gestures and improve communication for deaf individuals.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="https://github.com/sbalu25/ASL-fingerspelling" class="btn btn-primary">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Scraping Comparison -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="images/data-visualization.webp" class="card-img-top" alt="Web Scraping">
+                        <div class="card-body">
+                            <h3 class="card-title">Income Prediction</h3>
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Python</span>
+                                <span class="badge skill-badge">Matplotlib</span>
+                            </div>
+                            <p class="card-text">
+                                Creating market profiles by analyzing Census data on attributes such as age,
+                                education, occupation, and race to identify potential targets based on salary and other
+                                factors.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="https://github.com/sbalu25/income-prediction" class="btn btn-primary">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Spatial Data Science -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="images/spatial-data-science.png" class="card-img-top" alt="Spatial Data Analysis">
+                        <div class="card-body">
+                            <h3 class="card-title">Spatial Data Analysis</h3>
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Apache Sedona</span>
+                                <span class="badge skill-badge">Spark</span>
+                                <span class="badge skill-badge">Python</span>
+                                <span class="badge skill-badge">Pydeck</span>
+                            </div>
+                            <p class="card-text">
+                                Implemented spatial queries (range, k-NN, spatiotemporal) on NYC taxi trajectory dataset
+                                with visualization layer. Processed 10M+ records with sub-second query response times.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="https://github.com/sbalu25/SpatialDataScience" class="btn btn-primary">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hotspot Analysis -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="images/hotspot-analysis.png" class="card-img-top" alt="Hotspot Analysis">
+                        <div class="card-body">
+                            <h3 class="card-title">Hotspot Analysis</h3>
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Spark</span>
+                                <span class="badge skill-badge">Scala</span>
+                                <span class="badge skill-badge">Getis-Ord</span>
+                            </div>
+                            <p class="card-text">
+                                Identified statistically significant hotspots in spatial data using Getis-Ord Gi*
+                                statistic.
+                                Applied to urban planning datasets to reveal patterns in population density and
+                                activity.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="https://github.com/sbalu25/hotspot-analysis" class="btn btn-primary">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Scraping Comparison -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="images/web-scraping.webp" class="card-img-top" alt="Web Scraping">
+                        <div class="card-body">
+                            <h3 class="card-title">Web Scraping Comparison</h3>
+                            <div class="mb-3">
+                                <span class="badge skill-badge">Scrapy</span>
+                                <span class="badge skill-badge">Selenium</span>
+                                <span class="badge skill-badge">Puppeteer</span>
+                            </div>
+                            <p class="card-text">
+                                Benchmarking study comparing performance of web scraping tools on social media
+                                platforms.
+                                Analyzed success rates, speed, and resource usage across different tools.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="https://github.com/sbalu25/web-scraping" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> Java (Expert)</li>
+                                <li><i class="fas fa-check text-success"></i> Kotlin (Advanced)</li>
+                                <li><i class="fas fa-check text-success"></i> Python (Advanced)</li>
+                                <li><i class="fas fa-check text-success"></i> JavaScript/TypeScript</li>
+                                <li><i class="fas fa-check text-success"></i> Scala</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-success text-white">
+                            <h3>Frameworks</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> Spring Boot</li>
+                                <li><i class="fas fa-check text-success"></i> Ktor</li>
+                                <li><i class="fas fa-check text-success"></i> Angular</li>
+                                <li><i class="fas fa-check text-success"></i> React.js</li>
+                                <li><i class="fas fa-check text-success"></i> Hibernate</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-info text-dark">
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> AWS (EC2, S3, Lambda, SQS)</li>
+                                <li><i class="fas fa-check text-success"></i> Docker & Kubernetes</li>
+                                <li><i class="fas fa-check text-success"></i> Apache Spark/Sedona</li>
+                                <li><i class="fas fa-check text-success"></i> ELK Stack</li>
+                                <li><i class="fas fa-check text-success"></i> Git, Jenkins, Maven</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h3>Masters in Computer Science</h3>
+                            <p class="mb-0">Arizona State University</p>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Duration:</strong> Aug 2021 - May 2023</p>
+                            <p><strong>CGPA:</strong> 4.0/4.0</p>
+                            <p><strong>Notable Courses:</strong></p>
+                            <ul>
+                                <li>Distributed Database Systems</li>
+                                <li>Data Visualization</li>
+                                <li>Big Data Technologies</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-success text-white">
+                            <h3>Bachelors in Computer Science</h3>
+                            <p class="mb-0">Jawaharlal Nehru Technological University</p>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Duration:</strong> Sep 2014 - May 2018</p>
+                            <p><strong>Percentage:</strong> 82.57%</p>
+                            <p><strong>Achievements:</strong></p>
+                            <ul>
+                                <li>University Innovation Fellow</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Contact Information</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="fas fa-envelope me-2"></i>
+                                    <strong>Email:</strong> sandhya.balu525@gmail.com
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-map-marker-alt me-2"></i>
+                                    <strong>Location:</strong> Tempe, Arizona
+                                </li>
+                            </ul>
+                            <div class="social-links mt-4">
+                                <a href="https://linkedin.com/in/sandhya-balu" class="btn btn-outline-primary me-2">
+                                    <i class="fab fa-linkedin"></i> LinkedIn
+                                </a>
+                                <a href="https://github.com/sbalu25" class="btn btn-outline-dark">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="py-4 text-center text-white">
@@ -161,6 +612,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+        // Simple form handler
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+
         // Smooth scrolling for navigation
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
